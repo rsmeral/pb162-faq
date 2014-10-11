@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            PB162 FAQ
+tagline:          'Fervently Answered Questions'
+description:      'Fervently Answered Questions. Časté chyby, otázky, tipy, a iné veci týkajúce sa Javy. Niečo v slovenčine, niečo v angličtine, ale väčšina v Jave.'
+url:              http://rsmeral.github.io/pb162-faq
+baseurl:          /
+
+author:
+  name:           'Ron Šmeral'
+  url:            https://twitter.com/rsmeral
+
+paginate:         5
+
+# Custom vars
+
+github:
+  repo:           https://github.com/rsmeral/pb162-faq
+
+gems:
+  - jemoji
