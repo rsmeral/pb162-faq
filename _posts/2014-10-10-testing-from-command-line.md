@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Testovanie z príkazového riadku
+tags: [cmdline, meta, testing]
 ---
 
 <span class="lead">JUnit testy je možné jednoducho spúšťať z príkazového riadku.</span>

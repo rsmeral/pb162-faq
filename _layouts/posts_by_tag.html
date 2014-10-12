@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<h1>Príspevky s tagom {{ page.tag }}</h1>
+{% if site.tags[page.tag] %}
+    <ul class="related-posts">
+    {% for post in site.tags[page.tag] %}
+        <li>
+            <h3>
+                <a href="{{ site.baseurl }}{{ post.url }}/">
+                    {{ post.title }}
+                    <small>{{ post.date | date_to_string }}</small>
+                </a>
+            </h3>
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>Žiadne príspevky s tagom {{ page.tag }}.</p>
+{% endif %}

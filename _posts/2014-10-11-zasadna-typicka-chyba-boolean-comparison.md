@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Zásadná a typická chyba v porovnávaní a vracaní booleanov
+tags: [it01, mistake]
 ---
 
 {% highlight java %}

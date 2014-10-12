@@ -11,6 +11,14 @@
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+        
+        <span class="sidebar-nav-item">Tags</span>
+        {% assign data_tags = (site.data.tags | sort: 'name') %}
+        {% for data_tag in data_tags %}
+            {% if site.tags[data_tag.slug] %}
+                <a href="{{ site.baseurl }}/tag/{{ data_tag.slug }}">{{ data_tag.slug }}</a>
+            {% endif %}
+        {% endfor %}
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -26,6 +34,7 @@
         {% endif %}
       {% endfor %}
 
+      <span class="sidebar-nav-item">Links</span>
       <a class="sidebar-nav-item" href="http://docs.oracle.com/javase/7/docs/api/" target="_blank">Java 7 API</a>
       <a class="sidebar-nav-item" href="https://is.muni.cz/auth/predmet/fi/podzim2014/PB162" target="_blank">PB162 v IS</a>
     </nav>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Inicializácia, stav objektu, použitie triedy
+tags: [it01, design]
 ---
 
 Možno ste našli v poznámkovom bloku niečo ako:

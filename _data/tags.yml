@@ -1,0 +1,41 @@
+- slug: cmdline
+  name: Command line
+
+- slug: design
+  name: Design
+
+- slug: it01
+  name: 1. iterácia
+
+- slug: it02
+  name: 2. iterácia
+
+- slug: it03
+  name: 3. iterácia
+
+- slug: it04
+  name: 4. iterácia
+
+- slug: it05
+  name: 5. iterácia
+
+- slug: it06
+  name: 6. iterácia
+
+- slug: it07
+  name: 7. iterácia
+
+- slug: it08
+  name: 8. iterácia
+
+- slug: it09
+  name: 9. iterácia
+
+- slug: meta
+  name: Meta
+
+- slug: mistake
+  name: Mistake
+
+- slug: testing
+  name: Testing

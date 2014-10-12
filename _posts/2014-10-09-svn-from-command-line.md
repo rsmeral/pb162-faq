@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Verzovanie projektu z príkazového riadku
+tags: [cmdline, meta]
 ---
 
 > Ako sa dostanem k predchádzajúcej verzii zadania??

@@ -253,3 +253,16 @@ img.emoji {
     display: inline;
     margin: 0 0 5px 0;
 }
+
+.post-tags {
+    font-size: 1rem;
+}
+
+.post-tags span {
+    color: #9a9a9a;
+    
+}
+
+.post-tags a {
+    font-style: italic;
+}

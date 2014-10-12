@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Zbytočné volanie toString
+tags: [it01, mistake]
 ---
 
 V drvivej väčšine prípadov nepotrebujeme _explicitne_ volať na objektoch metódu `toString`, zavolá sa automaticky.
