@@ -9,7 +9,7 @@ title: Verzovanie projektu z príkazového riadku
 
 Prvým problémom je, že BlueJ síce vie zobraziť históriu projektu, ale neumožňuje vrátiť sa k starším verziám. Na to je potrebné použiť externý nástroj. Druhým problémom je, že jednotlivé verzie SVN sú navzájom prudko nekompatibilné. BlueJ používa verziu 1.6, zatiaľčo aktuálna verzia dostupných SVN klientov je 1.8, a projekt "checkoutovaný" jednou verziou nie je interoperabilný s klientom verzie inej.
 
-Takže je potrebné zaobstarať si nejakého starého SVN klienta, alebo - Java to the rescue! - siahnuť po nástroji menom SVNKit, čo je SVN klient implementovaný čiste v Jave a dokonca ako jeden z mála umožňuje pracovať s repozitármi všetkych verzií. Takže, ukážem stručný postup, ktorý je platný pre linuxové systémy a veľmi podobný aj pre Windowsy, keďže, ako už vieme, Java beží všade, a teda aj SVNKit (a majiteľom Apple produktov sa ospravedlňujem :smirk:
+Takže je potrebné zaobstarať si nejakého starého SVN klienta, alebo -- _Java to the rescue!_ -- siahnuť po nástroji menom SVNKit, čo je SVN klient implementovaný čiste v Jave a dokonca ako jeden z mála umožňuje pracovať s repozitármi všetkych verzií. Takže, ukážem stručný postup, ktorý je platný pre linuxové systémy a veľmi podobný aj pre Windowsy, keďže, ako už vieme, Java beží všade, a teda aj SVNKit (a majiteľom Apple produktov sa ospravedlňujem :smirk:
 
 ## Postup
 
