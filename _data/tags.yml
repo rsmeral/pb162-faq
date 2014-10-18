@@ -42,3 +42,9 @@
 
 - slug: style
   name: Style
+
+- slug: java
+  name: Java
+
+- slug: bestpractice
+  name: Best Practices
