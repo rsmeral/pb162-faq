@@ -5,7 +5,7 @@ tags: [bestpractice]
 ---
 
 <span class="lead">
-I decided that any posts on this site will be written in English as of today.
+I decided that all posts on this site will be written in English as of today.
 </span>
 
 I am hoping this decision will motivate you to write *your* code, comments and documentation in English.
