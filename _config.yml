@@ -26,3 +26,4 @@ github:
 
 gems:
   - jemoji
+  - jekyll-sitemap
