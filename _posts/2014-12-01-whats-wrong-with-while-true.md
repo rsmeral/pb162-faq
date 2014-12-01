@@ -29,7 +29,7 @@ Let's see how two simple loops with the same functionality compare if we read th
 while(true) {
     eat(makeSandwich());
     sandwichesEaten++;
-    if(sandwichesMade == 4) {
+    if(sandwichesEaten == 4) {
         break;
     }
     hungry = checkIfStillHungry();
@@ -39,7 +39,7 @@ while(true) {
 }
 {% endhighlight %}
 
-> *From now on and forever, your task is to make sandwiches, eat them and count how many you've eaten. However, once you've made four, feel free to stop. Then also check if you're hungry. If not, you don't need to make any more.*
+> *From now on and forever, your task is to make sandwiches, eat them and count how many you've eaten. However, once you've eaten four, feel free to stop. Then also check if you're hungry. If not, you don't need to make any more.*
 
 versus
 
